@@ -1,0 +1,9 @@
+in\kpmg\iocl\api\ExchangeRateResponse.class
+converter\KPMGExchangeRateConverter.class
+in\kpmg\iocl\api\ObjectFactory.class
+in\kpmg\iocl\api\AllExchange.class
+in\kpmg\iocl\api\ExchangeData.class
+in\kpmg\iocl\api\ExchangeRateRequest.class
+in\kpmg\iocl\api\ExchangeDataService.class
+route\KPMGExchangeRateRoute.class
+in\kpmg\iocl\api\package-info.class
