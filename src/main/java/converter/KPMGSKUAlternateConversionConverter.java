@@ -13,10 +13,12 @@ public class KPMGSKUAlternateConversionConverter
 
 	@Override
 	public SkuAltConversion convertOutbound(String materialNo) {
+/*
 		String materialCode = StringUtils.leftPad(materialNo, 18, '0');
+*/
 
 		SkuAltConversion input = new SkuAltConversion();
-		input.setMaterialNo(materialCode);
+		input.setMaterialNo(materialNo);
 
 		return input;
 	}

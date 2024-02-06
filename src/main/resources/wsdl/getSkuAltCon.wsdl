@@ -5,10 +5,6 @@
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="materialNo" type="xs:string"/>
-                        <xs:element name="baseUnitOfMeasure" type="xs:string"/>
-                        <xs:element name="unitOfMeasureDisplay" type="xs:string"/>
-                        <xs:element name="numeratorConversion" type="xs:string"/>
-                        <xs:element name="denominatorConversion" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -16,7 +12,6 @@
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="isSuccess" type="xs:boolean"/>
-                        <xs:element name="message" type="xs:string"/>
                         <xs:element maxOccurs="unbounded" name="sku_alt_conversion" type="tns:sku_alt_conversion"/>
                     </xs:sequence>
                 </xs:complexType>
@@ -28,6 +23,7 @@
                     <xs:element name="unitOfMeasureDisplay" type="xs:string"/>
                     <xs:element name="numeratorConversion" type="xs:string"/>
                     <xs:element name="denominatorConversion" type="xs:string"/>
+                    <xs:element name="materialDescription" type="xs:string"/>
                 </xs:sequence>
             </xs:complexType>
         </xs:schema>
